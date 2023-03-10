@@ -8,37 +8,37 @@
 # # You are old enough to learn to drive.
 # # Output:
 # # Enter your age: 15
-# get_age = input("Enter your age: ")
-# if int(get_age) >= 18:
-#     print("You are old enough to learn to drive")
-# elif int(get_age) < 18:
-#     diff = 18 - int(get_age)
-#     print(f"You need",diff, "more years to learn to drive")
+get_age = input("Enter your age: ")
+if int(get_age) >= 18:
+    print("You are old enough to learn to drive")
+elif int(get_age) < 18:
+    diff = 18 - int(get_age)
+    print(f"You need",diff, "more years to learn to drive")
 # # You need 3 more years to learn to drive.
 # # Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. 
 # # You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age. Output:
 # # Enter your age: 30
 # # You are 5 years older than me.
-# my_age = 27
-# your_age = input("Enter your age: ")
-# if int(my_age) > int(your_age):
-#     print("Im older than you")
-# else:
-#     diff = int(your_age) - int(my_age)
-#     print(f"You are", diff,"years older than me")
+my_age = 27
+your_age = input("Enter your age: ")
+if int(my_age) > int(your_age):
+    print("Im older than you")
+else:
+    diff = int(your_age) - int(my_age)
+    print(f"You are", diff,"years older than me")
 
 # # Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
 # # Enter number one: 4
 # # Enter number two: 3
 # # 4 is greater than 3
-# a = input("Enter number one: ")
-# b = input("Enter number two: ")
-# if a > b:
-#     print("a is greater than b")
-# elif a < b:
-#     print("a is smaller than b")
-# else:
-#     print("a is esqual to b")
+a = input("Enter number one: ")
+b = input("Enter number two: ")
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is smaller than b")
+else:
+    print("a is esqual to b")
 
 # # ### Exercises: Level 2
 # # Write a code which gives grade to students according to theirs scores:
@@ -48,20 +48,20 @@
 # # 60-69, C
 # # 50-59, D
 # # 0-49, F
-# note = int(input("Enter your note: "))
-# if note <= 49 or note == 0:
-#     print("Your grade is: F")
-# elif note >= 50 and note <= 59:
-#     print("Your grade is: D")
-# elif note >= 60 and note <= 69:
-#     print("Your grade is: C")
-# elif note >= 70 and note <= 89:
-#     print("Your grade is: B")
-# elif note >= 90 and note <= 100:
-#     print("Your grade is: A")
-# else:
-#     print("Error, range is 0 - 100")
-
+note = int(input("Enter your note: "))
+if note <= 49 or note == 0:
+    print("Your grade is: F")
+elif note >= 50 and note <= 59:
+    print("Your grade is: D")
+elif note >= 60 and note <= 69:
+    print("Your grade is: C")
+elif note >= 70 and note <= 89:
+    print("Your grade is: B")
+elif note >= 90 and note <= 100:
+    print("Your grade is: A")
+else:
+    print("Error, range is 0 - 100")
+    
 # Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. 
 # March, April or May, the season is Spring June, July or August, the season is Summer
 month = input("Enter the month: ")
